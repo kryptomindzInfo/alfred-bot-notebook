@@ -1,0 +1,7 @@
+setuptools==65.5.0
+wrds==3.1.6
+swig==4.1.1
+wheel==0.33.0
+git+https://github.com/openai/gym.git@9180d12e1b66e7e2a1a622614f787a6ec147ac40
+git+https://github.com/AI4Finance-Foundation/FinRL.git@423f45f39d31df862e20b1d95a4da714e94e3a72
+pandas==1.4.4
