@@ -4,7 +4,7 @@ import axios from 'axios';
 
 const router = Router();
 const docker = new Docker();
-const image = "asaifee02/chatgpt-finrl-bot";
+const image = "alfreddevteam/chatgpt-finrl-bot";
 
 router.post('/create', async (req, res) => {
   const api_key = req.body.api_key;
