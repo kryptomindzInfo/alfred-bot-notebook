@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3
+FROM continuumio/miniconda3:23.10.0-1
 
 RUN apt-get update && \
     apt-get install g++ swig curl jq -y && \
